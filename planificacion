@@ -1,0 +1,11 @@
+PLANIFICACIÓN DEL SISTEMA
+
+Modelo de datos:
+- Usuarios
+- Productos
+- Categorías
+- Movimientos
+
+Arquitectura:
+Frontend + Backend + Base de Datos
+Comunicación mediante API REST.
