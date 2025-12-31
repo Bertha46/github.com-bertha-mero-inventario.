@@ -45,8 +45,8 @@ Registrar nuevo usuario (solo admin).
 **Request:**
 ```json
 {
-  "nombre": "Juan Pérez",
-  "email": "juan@inventarios.com",
+  "nombre": "Bertha Mero",
+  "email": "bertha@inventarios.com",
   "contraseña": "contraseña123",
   "rol": "operador"
 }
@@ -70,7 +70,7 @@ Authorization: Bearer <token>
     "email": "bertha@inventarios.com",
     "rol": "operador",
     "activo": true,
-    "fechaCreacion": "2024-01-15T10:30:00.000Z"
+    "fechaCreacion": "2025-01-15T10:30:00.000Z"
   }
 }
 ```
@@ -98,8 +98,8 @@ Obtener lista de productos.
       "precio": 850.00,
       "stock": 25,
       "categoria": "Electrónicos",
-      "fechaCreacion": "2024-01-15T10:30:00.000Z",
-      "fechaActualizacion": "2024-01-15T10:30:00.000Z"
+      "fechaCreacion": "2025-01-15T10:30:00.000Z",
+      "fechaActualizacion": "2025-01-15T10:30:00.000Z"
     }
   ],
   "pagination": {
@@ -176,7 +176,7 @@ Obtener lista de movimientos.
         "id": "507f1f77bcf86cd799439013",
         "nombre": "Bertha Mero"
       },
-      "fecha": "2024-01-15T10:30:00.000Z"
+      "fecha": "2025-01-15T10:30:00.000Z"
     }
   ],
   "pagination": {
@@ -214,7 +214,7 @@ Verificar funcionamiento de la API.
 {
   "success": true,
   "message": "API funcionando correctamente",
-  "timestamp": "2024-01-15T10:30:00.000Z",
+  "timestamp": "2025-01-15T10:30:00.000Z",
   "environment": "development"
 }
 ```
@@ -228,7 +228,7 @@ Verificar estado del servidor y base de datos.
   "success": true,
   "api": "OK",
   "database": "connected",
-  "timestamp": "2024-01-15T10:30:00.000Z"
+  "timestamp": "2025-01-15T10:30:00.000Z"
 }
 ```
 
