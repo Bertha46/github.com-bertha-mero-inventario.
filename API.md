@@ -66,8 +66,8 @@ Authorization: Bearer <token>
   "success": true,
   "data": {
     "id": "507f1f77bcf86cd799439011",
-    "nombre": "Juan Pérez",
-    "email": "juan@inventarios.com",
+    "nombre": "Bertha Mero",
+    "email": "bertha@inventarios.com",
     "rol": "operador",
     "activo": true,
     "fechaCreacion": "2024-01-15T10:30:00.000Z"
@@ -174,7 +174,7 @@ Obtener lista de movimientos.
       "motivo": "Compra a proveedor",
       "usuario": {
         "id": "507f1f77bcf86cd799439013",
-        "nombre": "Juan Pérez"
+        "nombre": "Bertha Mero"
       },
       "fecha": "2024-01-15T10:30:00.000Z"
     }
